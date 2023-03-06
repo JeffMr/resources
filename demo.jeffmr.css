@@ -1,11 +1,8 @@
-._meu-menu {
-  background-color: black;
-}
 /* Barra de notificações */
 #notificacoes-barra {
-	border-bottom: 4px solid #00a0ff;
-	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
-	z-index: 999;
+  border-bottom: 4px solid #00a0ff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;

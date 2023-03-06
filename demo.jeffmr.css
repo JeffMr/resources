@@ -1,3 +1,27 @@
+/* Estilo do Menu Principal*/
+.nav-menu .menu-item-wrapper a{
+font-weight: bold;
+	font-size: 14px;
+}
+
+/* Estilo do Menu Saldo E-commerce */
+.nav-menu .menu-item-wrapper a:hover {
+	color: #0693e3;
+	font-weight: bold;
+}
+
+#nav-header li:nth-child(8) a{
+	font-weight: bold;
+}
+
+#nav-header li:nth-child(8) a:hover{
+	color: #0693e3;
+	font-weight: bold;
+}
+
+/****************************************/
+/****************************************/
+
 /* Barra de notificações */
 #notificacoes-barra {
   border-bottom: 4px solid #00a0ff;

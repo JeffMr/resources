@@ -70,3 +70,32 @@
 #back-to-top {
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* Desabilita Estilo do DIV Powered by Tagembed*/
+.poweredbyWithFilters{
+	display:none;
+}
+
+/* Estilo do DIV Powered by Tagembed */
+.byTagembed {
+  border: 1px solid #1f1b1b;
+  width: 170px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.Bytag {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /*justify-content: space-around;*/
+}
+
+.byTagembed a {
+  padding: 10px;
+  text-decoration: none;
+  color: #1f1b1b;
+  margin-left: 8px; /* Adiciona um espaço entre o link e a imagem */
+}

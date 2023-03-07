@@ -1,15 +1,21 @@
+
+/****************************************/
+/************ Menu Principal ************/
+/****************************************/
+
 /* Estilo do Menu Principal*/
 .nav-menu .menu-item-wrapper a{
 	font-weight: bold;
 	font-size: 14px;
 }
 
-/* Estilo do Menu Saldo E-commerce */
+/* Estilo do Menu Principal em sobreposição */
 .nav-menu .menu-item-wrapper a:hover {
 	color: #0693e3;
 	font-weight: bold;
 }
 
+/* Estilo Meu Saldo E-commerce */
 #nav-header li:nth-child(8) a{
 	font-weight: bold;
 }
@@ -20,6 +26,7 @@
 }
 
 /****************************************/
+/******** Barra de notificações *********/
 /****************************************/
 
 /* Barra de notificações */
@@ -49,10 +56,20 @@
 }
 
 /****************************************/
+/******* Body ********/
+/****************************************/
+
+/* Body */
+.home{
+	background-color: whitesmoke;
+}
+
+/****************************************/
+/******* Sombreamento de Objetos ********/
 /****************************************/
 
 /* Definir sombra nos objetos */ 
-.mini-card,
+.mini-card,	/* cards do HightLight */
 .featured-item-wrap,
 .article-grid  article,
 .sidebar .widget,
@@ -71,21 +88,25 @@
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Desabilita Estilo do DIV Powered by Tagembed*/
+/****************************************/
+/******* Powered by Tagembed ************/
+/****************************************/
+
+/* Powered by Tagembed Original */
 .poweredbyWithFilters{
-	display:none;
+	display:none; /* Desabilitar exibição */
 }
 
-/* Estilo do DIV Powered by Tagembed */
+/* Powered by Tagembed (Div Raiz */
 .byTagembed {
   border: 1px solid #1f1b1b;
   width: 170px;
   border-radius: 5px;
   display: flex;
   align-items: center;
-
 }
 
+/* Powered By Tagembed CTL */
 .Bytag {
   width: 100%;
   display: flex;
@@ -98,4 +119,25 @@
   text-decoration: none;
   color: #1f1b1b;
   margin-left: 8px; /* Adiciona um espaço entre o link e a imagem */
+}
+
+/****************************************/
+/******* Postagens Relacionadas *********/
+/****************************************/
+
+.related-post{
+	margin-right: 5px;	/* distancie uma da outra */
+}
+
+img {
+	border-radius: 10px; /* Bordas arredondadas para as imagens */
+}
+
+/****************************************/
+/******* Formulários RockContent ********/
+/****************************************/
+
+/* Formulários de inscrição */
+.rock-convert-subscribe-form{
+	max-width: 600px;
 }

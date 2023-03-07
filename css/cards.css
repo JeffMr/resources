@@ -1,0 +1,116 @@
+  /* Estilo do card do Autor */
+
+  ._card {
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      margin-top: 15px;
+      text-align: center;
+      font-family: arial;
+      border-radius: 8px;
+  }
+
+  ._autor {
+      color: black;
+      font-size: 15px;
+      font-weight: Bold;
+  }
+
+  ._titulo {
+      color: grey;
+      font-size: 15px;
+      font-weight: Bold;
+  }
+
+  ._descricao {
+      color: grey;
+      font-size: 15px;
+  }
+
+  ._btn {
+      border: none;
+      border-radius: 0px 0px 8px 8px;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background: linear-gradient(to right, #00cc99 0%, #00ffcc 100%);
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+  }
+
+  ._icon {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+  }
+
+  ._btn:hover,
+  a:hover {
+      opacity: 0.7;
+  }
+
+  img.hover-shadow {
+      transition: 0.3s;
+  }
+
+  .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .cursor {
+      cursor: pointer;
+  }
+
+  /* Estilos para o modo escuro */
+  .dark-mode {
+      background-color: #111122;
+      background: linear-gradient(to bottom, #111122 0%, #2f4f4f 100%);
+      color: #ffffff;
+  }
+
+  .dark-mode ._card {
+      background: linear-gradient(to top, #222244 0%, #2f4f4f 100%);
+      box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+  }
+
+  .dark-mode ._autor {
+      color: #ffffff;
+  }
+
+  .dark-mode ._titulo {
+      color: #c4c4c4;
+  }
+
+  .dark-mode ._descricao {
+      color: #c4c4c4;
+  }
+
+  .dark-mode ._icon {
+      text-decoration: none;
+      font-size: 22px;
+      color: gray;
+  }
+
+  .dark-mode ._btn {
+      background: linear-gradient(to right, #00cc99 0%, #00ffcc 100%);
+  }
+
+  .dark-mode ._btn:hover,
+  .dark-mode a:hover {
+      opacity: 0.7;
+  }
+
+  .dark-mode .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  }
+
+  #dark-mode-toggle {
+      padding: 5px;
+      border: none;
+      border-radius: 0px 0px 10px 10px;
+      float: center;
+      background: linear-gradient(to right, #00cc99 0%, #00ffcc 100%);
+  }

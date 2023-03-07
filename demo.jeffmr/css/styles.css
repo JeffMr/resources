@@ -58,9 +58,9 @@
 /******* Body ********/
 /****************************************/
 
-/* Body */
-body {
-  margin-top: 50px;
+/* Header */
+#header-inner {
+    margin-top: 50px;
 }
 
 .home {

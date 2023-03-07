@@ -1,1 +1,1 @@
-import("barra-de-notificacao.js");
+import("barra-de-notificacao.js")

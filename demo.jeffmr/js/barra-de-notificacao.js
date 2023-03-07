@@ -6,10 +6,3 @@ setInterval(function () {
   texto = texto.substring(1) + texto.substring(0, 1);
   notificacoesBarra.innerHTML = texto;
 }, 200);
-
-function ase (){
-  setInterval(function () {
-    texto = texto.substring(1) + texto.substring(0, 1);
-    notificacoesBarra.innerHTML = texto;
-  }, 200);
-}

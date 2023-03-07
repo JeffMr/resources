@@ -59,6 +59,9 @@
 /****************************************/
 
 /* Body */
+body{
+	margin-top: 50px;
+}
 .home {
   background-color: whitesmoke;
 }

@@ -1,8 +1,8 @@
-/**********************************************/
-/************ Barra de notificação ************/
-/**********************************************/
+////////////////////////////////////////////////
+///////////// Barra de notificação /////////////
+////////////////////////////////////////////////
 
-/* Coleta a mensagem através de "msgBlog" e envia para "notificacoes-barra" */
+// Coleta a mensagem através de "msgBlog" e envia para "notificacoes-barra"
 var notificacoesBarra = document.getElementById("notificacoes-barra");
 var texto = document.getElementById("msgBlog").innerHTML;
 

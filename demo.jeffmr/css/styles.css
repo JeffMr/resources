@@ -37,7 +37,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 30px;
   background-color: #003b76;
   color: #bad0dd;
   font-size: 18px;
@@ -91,8 +91,6 @@
 /* Artigos */
 .content article img,
 /* Imagens dos artigos */
-.woocommerce-products-header__title>page-title,
-/* Cabeçalho da Loja */
 .woocommerce ul.products li.product a img,
 /* Imagem do produto */
 #back-to-top {

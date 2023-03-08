@@ -64,7 +64,8 @@ body {
 }
 
 #header-inner {
-  margin-top: 25px;
+  top: 50px;
+  margin-top: 0px;
 }
 
 .home {

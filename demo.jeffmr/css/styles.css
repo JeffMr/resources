@@ -71,8 +71,10 @@
 /******* Sombreamento de Objetos ********/
 /****************************************/
 
-.mini-card, /* Definir sombra nos objetos */
-.featured-item-wrap, /* cards do HightLight */
+.mini-card,
+/* Definir sombra nos objetos */
+.featured-item-wrap,
+/* cards do HightLight */
 .article-grid article,
 .sidebar .widget,
 #post-345>div.entry-footer.group,
@@ -85,10 +87,14 @@
 .Bytag,
 .content>.post,
 .sharrre-header,
-.content>article, /* Artigos */
-.content article img, /* Imagens dos artigos */
-.woocommerce-products-header, /* Cabeçalho da Loja */
-.woocommerce ul.products li.product a img, /* Imagem do produto */
+.content>article,
+/* Artigos */
+.content article img,
+/* Imagens dos artigos */
+.woocommerce-products-header__title page-title,
+/* Cabeçalho da Loja */
+.woocommerce ul.products li.product a img,
+/* Imagem do produto */
 #back-to-top {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
 }

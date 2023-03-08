@@ -91,7 +91,7 @@
 /* Artigos */
 .content article img,
 /* Imagens dos artigos */
-.woocommerce-products-header__title page-title,
+.woocommerce-products-header__title>page-title,
 /* Cabeçalho da Loja */
 .woocommerce ul.products li.product a img,
 /* Imagem do produto */

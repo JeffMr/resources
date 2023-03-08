@@ -59,6 +59,10 @@
 /****************************************/
 
 /* Header */
+body {
+  top: 50px;
+}
+
 #header-inner {
   margin-top: 50px;
 }

@@ -3,7 +3,7 @@ export default class User { // just add "default"
     constructor(name) {
       this.name = name;
     }
-    constructor(color){
+   /* constructor(color){
       this.color = color;
     }
     constructor(height){
@@ -11,6 +11,6 @@ export default class User { // just add "default"
     }
     constructor(years){
       this.years = years;
-    }
+    }*/
 
   }

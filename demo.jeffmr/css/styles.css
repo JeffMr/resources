@@ -75,6 +75,7 @@ body {
 /******* Sombreamento de Objetos ********/
 /****************************************/
 
+/**/
 .mini-card,
 /* Definir sombra nos objetos */
 .featured-item-wrap,
@@ -82,19 +83,23 @@ body {
 .article-grid article,
 .sidebar .widget,
 #custom_html-8 div center div div,
+/* Próxima postagem */
 #page>div>div.sidebar.s1>div>ul>li.next>a,
+/* Postagem anterior */
 #page>div>div.sidebar.s1>div>ul>li.previous>a,
 #wrapper>div.subheader>div,
 #page>div>div.content>div.page-title.group,
 .Bytag,
 .content>.post,
 .sharrre-header,
-.content>article,
 /* Artigos */
-.content article img,
+.content>article,
 /* Imagens dos artigos */
+.content article img,
+/* woocommerce */
 .woocommerce ul.products li.product a img,
 .woocommerce div.product div.images img,
+.woocommerce .woocommerce-ordering select,
 /* Imagem do produto */
 #back-to-top {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
@@ -170,4 +175,9 @@ img {
   margin-top: 5px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.woocommerce .woocommerce-ordering select {
+  padding: 2px;
+  border-radius: 5px;
 }

@@ -50,7 +50,7 @@
 
 /* DIV com a mensagem para Barra de notificações */
 #msgBlog {
-  display: none;
+  display: block;
 }
 
 /****************************************/
